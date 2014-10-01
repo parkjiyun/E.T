@@ -7488,11 +7488,10 @@ fill(20,27,101);
     fill(0)
 
     rect(mouseX, mouseY, 30, 10);
-    rect(mouseX-10, mouseY+10, 50, 10,);
+    rect(mouseX-10, mouseY+10, 50, 10);
     rect(mouseX-30, mouseY+20, 70, 10);
     rect(mouseX-70, mouseY+10, 20, 10);
     rect(mouseX-80, mouseY+20, 40, 10);
-
     rect(mouseX-10, mouseY+10, 50, 10);
     rect(mouseX-30, mouseY+20, 70, 10);
     rect(mouseX-70, mouseY+10, 20, 10);
