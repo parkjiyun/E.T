@@ -7581,90 +7581,85 @@ drawET(trailX[i],trailY[i]);
     // mouse ellipse
 }
     //1
-     fill(Math.random() * 232,64,72);
-    ellipse(25,25, 8, 8);
-    
+    if (mouseX < 80) {
+        if(mouseY < 150) {
+            ellipse(25, 25, (100-mouseX)/5, (100-mouseY)/5); 
+        }
+        
+    } else if (mouseX < 210){
+        if(mouseY < 150)
+        ellipse(85, 35, (110-mouseX)/5, (110-mouseY)/5);
+    } else if (mouseX < 220){
+        if(mouseY < 150)
+        ellipse(60, 80, (120-mouseX)/5, (120-mouseY)/5);
+    } else if (mouseX < 230){
+        if(mouseY < 150)
+        ellipse(15, 100, (130-mouseX)/5, (130-mouseY)/5);
+    } else if (mouseX < 240){
+        if(mouseY < 150)
+        ellipse(50, 50, (140-mouseX)/5, (160-mouseY)/5);
+    } else if(mouseX < 250){
+        if(mouseY < 150)
+        ellipse(520, 25, (140-mouseX)/5, (140-mouseY)/5);
+    }
 
-    fill(Math.random() * 175,175,85);
-    ellipse(85,35, 10, 10);
 
-
-    fill(Math.random() * 175,19,144);
-    ellipse(60,80, 7, 7);
-
-     fill(Math.random() * 228,179,209);
-    ellipse(15,100, 6, 6);
-   
-     fill(Math.random() * 255,355,21);
-    ellipse(50,50, 5, 5);
- 
-    
-     fill(Math.random() * 232,64,72);
-    ellipse(520,25, 10, 10);
     
        
     //2
-    fill(Math.random() * 255,244,21);
-    ellipse(450,15, 5, 5);
-
-
-    fill(Math.random() * 175,19,144);
-    ellipse(480,35, 6, 6);
-
-    fill(Math.random() * 228,179,209);
-    ellipse(500,65, 7, 7);
-
+    
+    var w=mouseX;
+        if (w>570){
+            w=570;
+        }
+    if (w > 500) {
+        if(mouseY < 150) {
+            ellipse(450, 15, (w-470)/5, (110-mouseY)/5);   
+        }
+        
+    } else if (w > 460){
+        if(mouseY < 150)
+        ellipse(480, 35, (w-400)/5, (110-mouseY)/5);
+    } else if (w > 420){
+        if(mouseY < 150)
+        ellipse(500, 65, (w-490)/5, (130-mouseY)/5);
+    }
 
 
 
     //3
-     fill(Math.random() * 232,64,72);
-    ellipse(25,455, 8, 8);
-    
-
-    fill(Math.random() * 175,175,85);
-    ellipse(85,550, 10, 10);
-
-
-    fill(Math.random() * 175,19,144);
-    ellipse(60,480, 7, 7);
-
-     fill(Math.random() * 228,179,209);
-    ellipse(45,540, 6, 6);
-   
-     fill(Math.random() * 255,355,21);
-    ellipse(150,545, 5, 5);
-     
-      fill(Math.random() * 255,355,21);
-    ellipse(130,580, 9, 9);
-    
-     fill(Math.random() * 107,78,157);
-    ellipse(520,25, 10, 10);
+        if (mouseX < 100) {
+        ellipse(25, 455, 8, 8);
+    } else if (mouseX < 200){
+        ellipse(85, 550, 10, 10);
+    } else if (mouseX < 300){
+        ellipse(60, 480, 7, 7);
+    } else if (mouseX < 400){
+        ellipse(45, 540, 6, 6);
+    } else if (mouseX < 500){
+        ellipse(150, 545, 5, 5);
+    } else if (mouseX < 600){
+        ellipse(130, 580, 9, 9);
+    } else if (mouseX < 700){
+        ellipse(520, 25, 10, 10);
+    }
 
 
     //4
-     fill(Math.random() * 232,64,72);
-    ellipse(500,500, 8, 8);
+    if (mouseY < 100) {
+        ellipse(500, 500, 8, 8);
+    } else if (mouseY < 200){
+            ellipse(480, 550, 10, 10);
+    } else if (mouseY < 300){
+            ellipse(530, 580, 7, 7);
+    } else if (mouseY < 300){
+            ellipse(345, 580, 6, 6);
+    } else if (mouseY < 300){
+            ellipse(420, 535, 5, 5);
+    } else if (mouseY < 300){
+            ellipse(430, 580, 4, 4);
+    } 
     
-
-    fill(Math.random() * 175,175,85);
-    ellipse(480,550, 10, 10);
-
-
-    fill(Math.random() * 175,19,144);
-    ellipse(530,580, 7, 7);
-
-     fill(Math.random() * 228,179,209);
-    ellipse(345,580, 6, 6);
-   
-     fill(Math.random() * 255,355,21);
-    ellipse(420,535, 5, 5);
-     
-      fill(Math.random() * 232,64,72);
-    ellipse(430,580, 4, 4);
-
-    
-
 
 
 
